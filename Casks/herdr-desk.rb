@@ -1,9 +1,9 @@
 cask "herdr-desk" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.0.3"
-  sha256 arm:   "0c69dfca05290d4530a63f029481fc4ca77141022f915ca09aa1432718518865",
-         intel: "28b12dd79cdeed6db2ece9014fc1c17cd334379c20760c715460c9b76064963e"
+  version "0.0.4"
+  sha256 arm:   "1ffa362aa178eaea1f63034492848b84e4a899c0dfeea46d39ba6949b489daef",
+         intel: "6d9525a2bac0ce5a4fe80188f9f7852089043719055d4403fb666afd65d0c57c"
 
   url "https://github.com/eirsyl/homebrew-herdr-desk/releases/download/v#{version}/Herdr-Desk-#{version}-#{arch}.dmg"
   name "Herdr Desk"
